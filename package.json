@@ -1,0 +1,26 @@
+{
+  "name": "@applaud/vue-style-loader",
+  "version": "1.0.0",
+  "author": "Applaud",
+  "description": "Vue.js style loader module for webpack",
+  "repository": "https://github.com/Applaud-devpack/vue-style-loader",
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
+  },
+  "keywords": [
+    "applaud"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "hash-sum": "^1.0.2",
+    "loader-utils": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "conventional-changelog-cli": "^2.0.1",
+    "jest": "^22.1.4"
+  }
+}
